@@ -47,7 +47,7 @@ h3 {
 .awards {
 	background-color: #FF9999;
 	color: white;
-	padding: 75px 100px 100px 100px
+	padding: 75px 100px 30px 100px
 }
 
 .awards h3 {
@@ -114,11 +114,15 @@ h6 {
 }
 
 .contact {
-	background-color: #FF9999;
-	color: white;
+	background-color: white;
+	color: #FF9999;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
 	padding-top: 15px;
+}
+
+.contact i {
+	color: #FF9999;
 }
 
 img {
