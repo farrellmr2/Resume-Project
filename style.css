@@ -74,17 +74,34 @@ h3 {
 	font-size: 150px;
 }
 
+.resume-button {
+	background-color: #FF9999;;
+	color: white;
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px;
+	margin-bottom: 30px;
+	text-decoration: none;
+}
+
+.resume-button a {
+	color: white;
+}
+
+.resume-button:hover {
+	color: gray;
+}
+
 .resume {
-	margin-top: -75px;
 	background-color: white;
-	padding: 40px;
+	padding: 15px;
 	font-family: 'Open Sans', sans-serif;
 } 
 
 .resume h3 {
 	font-size: 78px;
 	font-family: 'Montserrat', sans-serif;
-	padding-bottom: 30px;
+	padding-bottom: 0px;
 	color: #FF9999;
 }
 
@@ -94,6 +111,32 @@ h6 {
 	font-size: 20px;
 	color: #FF9999;
 	font-family: 'Montserrat', sans-serif;
+}
+
+.contact {
+	background-color: #FF9999;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	padding-top: 15px;
+}
+
+img {
+	width: 100%;
+	height: 200px;
+}
+
+/*
+.text-vertical {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    width:180px;
+  	height:100px;
+  	-ms-transform:rotate(270deg); 
+  	-moz-transform:rotate(270deg); 
+  	-webkit-transform:rotate(270deg); 
+  	-o-transform:rotate(270deg); 
 }
 
 .projects {
@@ -127,32 +170,6 @@ h6 {
 	font-size: 20px;
 	padding: 0;
 	margin: -90px 0px 0px 0px;
-}
-
-.contact {
-	background-color: #FF9999;
-	color: white;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
-	padding-top: 15px;
-}
-
-img {
-	width: 100%;
-	height: 200px;
-}
-
-/*
-.text-vertical {
-    font-size: 40px;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    width:180px;
-  	height:100px;
-  	-ms-transform:rotate(270deg); 
-  	-moz-transform:rotate(270deg); 
-  	-webkit-transform:rotate(270deg); 
-  	-o-transform:rotate(270deg); 
 }
 
 
