@@ -7,7 +7,6 @@
 	padding: 0px 
 }
 
-
 i {
 	color: white;
 	padding: 10px;
@@ -133,12 +132,44 @@ img {
  */
 
  @media (max-width: 600px) {
- 	body {
- 		background: red;
+ 	ul {
+ 		display: none;
+ 	}
+
+ 	h1 {
+ 		font-size: 60px;
+ 		margin: 40px;
+ 	}
+
+ 	.text-box {
+ 		border-radius: 0px;
+ 	}
+
+ 	.resume-button {
+ 		max-width: 25%;
+ 		margin: 0 auto;
+ 	}
+
+ 	.awards {
+ 		margin-top: 15px;
+ 	}
+
+ 	.awards i {
+ 		display: none;
+ 	}
+
+ 	.awards h4 {
+ 		padding: 0px;
+ 		margin: 0px; 
+ 	}
+
+ 	.awards p {
+ 		padding: 0px;
+ 		margin: 0 0 10px 0; 
  	}
  }
 
-
+ 
 
 
 
