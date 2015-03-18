@@ -127,6 +127,25 @@ img {
 	height: 200px;
 }
 
+
+/* 
+ * Media Queries
+ */
+
+ @media (max-width: 600px) {
+ 	body {
+ 		background: red;
+ 	}
+ }
+
+
+
+
+
+
+
+
+
 /*
 .text-vertical {
     font-size: 40px;
