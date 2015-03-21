@@ -132,7 +132,7 @@ img {
  */
 
  @media (max-width: 600px) {
- 	ul {
+ 	.background ul {
  		display: none;
  	}
 
@@ -148,10 +148,17 @@ img {
  	.resume-button {
  		max-width: 25%;
  		margin: 0 auto;
+ 		font-size: 12px;
  	}
 
  	.awards {
  		margin-top: 15px;
+ 		padding: 20px;
+ 	}
+
+ 	.awards h3 {
+ 		margin: 0 0 20px 0;
+ 		padding: 0;
  	}
 
  	.awards i {
@@ -169,61 +176,64 @@ img {
  	}
  }
 
- 
+ @media (min-width: 601px) and (max-width: 990px) {
+ 	.background ul {
+ 		display: none;
+ 	}
 
+ 	.text-box {
+ 		border-radius: 0;
+ 		margin: -500px 0 0 0;
+ 	}
 
+ 	h1 {
+ 		font-size: 60px;
+		height: 100px;
+		margin-top: 40px;
+		padding: 40px 0 20px 0;
+ 	}
 
+	h3 {
+		padding-bottom: 40px;
+	}
 
+	.awards {
+ 		margin-top: 15px;
+ 		padding: 20px;
+ 	}
 
+ 	.awards h3 {
+ 		margin: 0 0 20px 0;
+ 		padding: 0;
+ 	}
 
+ 	.awards i {
+ 		font-size: 100px;
+ 		display: inline;
+ 	}
 
-/*
-.text-vertical {
-    font-size: 40px;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    width:180px;
-  	height:100px;
-  	-ms-transform:rotate(270deg); 
-  	-moz-transform:rotate(270deg); 
-  	-webkit-transform:rotate(270deg); 
-  	-o-transform:rotate(270deg); 
-}
+ 	.awards h4 {
+ 		padding: 0px;
+ 		margin: 0px; 
+ 	}
 
-.projects {
-	color: #FF9999;
-	background-color: gray;
-	padding: 0;
-}
+ 	.awards p {
+ 		padding: 20px;
+ 		margin: 0 0 10px 0; 
+ 	}
+ }
 
-.projects h4 {
-	font-size: 78px;
-	font-family: 'Montserrat', sans-serif;
-	padding: 50px 0px 30px 0px;
-}
+ @media (min-width: 991px) and (max-width: 1145px) {
+ 	h1 {
+ 		padding-top: 40px;
+ 		font-size: 70px;
+ 		height: 110px
+ 	}
 
-.project-one {
-	padding: 0 0 10px 0;
-}
-
-.project-two {
-	padding: 10px 0 0 0;
-}
-
-.project-one:hover {
-	background-color: rgba(0,0,0,.5);
-}
-
-.projects p {
-	color: #FF9999;
-	padding: 20px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
-	padding: 0;
-	margin: -90px 0px 0px 0px;
-}
-
-
+ 	h3 {
+ 		padding-bottom: 40px;
+ 	}
+ }
 
 
 
