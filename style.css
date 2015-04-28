@@ -40,6 +40,28 @@ h3 {
 	padding: 10px 0px 70px 0px;
 }
 
+.accordion-header {
+	background-color: #424242;
+	cursor: pointer;
+
+}
+
+.accordion-header:hover {
+	background-color: #222;
+}
+
+.accordion-header h3 {
+	padding: 5px;
+	color: white;
+}
+
+.accordion-content {
+	background-color: #eee;
+	display: none; 
+	margin: 0;
+	padding: 0;
+}
+
 .awards {
 	background-color: #FF9999;
 	color: white;
@@ -129,7 +151,7 @@ img {
 
 /* 
  * Media Queries
- */
+*/ 
 
  @media (max-width: 600px) {
  	.background ul {
@@ -138,11 +160,15 @@ img {
 
  	h1 {
  		font-size: 60px;
- 		margin: 40px;
+ 		margin-bottom: 40px;
  	}
 
  	.text-box {
  		border-radius: 0px;
+ 	}
+
+ 	.resume h3 {
+ 		font-size: 50px;
  	}
 
  	.resume-button {
@@ -159,6 +185,7 @@ img {
  	.awards h3 {
  		margin: 0 0 20px 0;
  		padding: 0;
+ 		font-size: 50px
  	}
 
  	.awards i {
@@ -168,11 +195,19 @@ img {
  	.awards h4 {
  		padding: 0px;
  		margin: 0px; 
+ 		font-size: 30px;
  	}
 
  	.awards p {
  		padding: 0px;
  		margin: 0 0 10px 0; 
+ 		font-size: 13px;
+ 	}
+
+ 	.contact {
+ 		font-size: 20px;
+ 		padding: 10px;
+ 		margin: 0;
  	}
  }
 
