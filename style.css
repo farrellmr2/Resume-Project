@@ -159,7 +159,7 @@ img {
  	}
 
  	h1 {
- 		font-size: 60px;
+ 		font-size: 50px;
  		margin-bottom: 40px;
  	}
 
@@ -172,7 +172,7 @@ img {
  	}
 
  	.resume-button {
- 		max-width: 25%;
+ 		width: 25%;
  		margin: 0 auto;
  		font-size: 12px;
  	}
