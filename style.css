@@ -100,7 +100,7 @@ h3 {
 	padding: 10px;
 	margin-bottom: 30px;
 	text-decoration: none;
-	width: 100px;
+	width: 130px;
 }
 
 .resume-button a {
@@ -173,7 +173,7 @@ img {
  	}
 
  	.resume-button {
- 		
+ 		width: 100px;
  		margin: 0 auto;
  		font-size: 12px;
  	}
